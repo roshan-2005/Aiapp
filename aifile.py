@@ -16,7 +16,7 @@ def query(payload):
 
 
 st.title("AI Image Generator")
-
+st.paragraph("AI Image Generator by Roshan")
 
 user_input = st.text_input('Enter your prompt here:')
 
