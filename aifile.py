@@ -18,7 +18,7 @@ st.title("Hi Iam Roshan.v.c")
 url = "https://www.linkedin.com/in/roshan-v-c-/"
 
 st.markdown(f"LinkedIn Profile")
-st.image("./linkedin.png")
+st.image("linkedin.png")
 
 st.title("AI Image Generator")
 st.text("by Roshan")
