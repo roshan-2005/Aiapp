@@ -13,10 +13,15 @@ def query(payload):
     else:
         st.error(f"Error {response.status_code}: {response.text}")
         return None
+        
+st.title("Hi Iam Roshan.v.c")
+url = "https://www.linkedin.com/in/roshan-v-c-/"
 
+st.markdown(f"LinkedIn Profile")
+st.image("./linkedin.png")
 
 st.title("AI Image Generator")
-st.paragraph("AI Image Generator by Roshan")
+st.text("by Roshan")
 
 user_input = st.text_input('Enter your prompt here:')
 
